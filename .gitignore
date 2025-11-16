@@ -1,0 +1,53 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+venv/
+env/
+*.sqlite3
+
+# =====================
+# IDEs / Editors
+# =====================
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# =====================
+# OS-specific
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Docker
+# =====================
+*.log
+docker-compose.override.yml
+*.env
+pgdata/
+
+# =====================
+# Jupyter / IPython
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Hugging Face / Models
+# =====================
+cache/
+*.ckpt
+*.pt
+*.bin
+
+# =====================
+# Misc
+# =====================
+*.swp
+*.tmp
