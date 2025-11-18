@@ -2,12 +2,12 @@
 import os
 import psycopg2
 
-# Read environment variables, with defaults
 DB_USER = os.getenv("POSTGRES_USER", "postgres")
 DB_PASSWORD = os.getenv("POSTGRES_PASSWORD", "secret")
 DB_NAME = os.getenv("POSTGRES_DB", "newsdb")
-DB_HOST = os.getenv("POSTGRES_HOST", "localhost")
-DB_PORT = int(os.getenv("POSTGRES_PORT", 5432))  # convert to int
+DB_HOST = os.getenv("POSTGRES_HOST", "db")
+DB_PORT = os.getenv("POSTGRES_PORT", "5432")
+
 
 def get_db_connection():
     """
